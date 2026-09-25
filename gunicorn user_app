@@ -5,6 +5,9 @@ import traceback
 import tkinter as tk
 from tkinter import messagebox
 import subprocess
+import telebot
+import requests
+from flask import Flask
 
 try:
     import customtkinter as ctk
