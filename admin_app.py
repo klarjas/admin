@@ -10,6 +10,9 @@ from datetime import datetime
 import threading
 import tempfile
 import webbrowser
+import telebot
+import requests
+from flask import Flask
 
 # 🔑 បញ្ចូលព័ត៌មានរបស់អ្នកទីនេះ
 SUPABASE_URL = "https://arrupyibnwvghwhgjfqg.supabase.co"
